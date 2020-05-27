@@ -68,11 +68,11 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.row {
-    height: 100%;
+body {
     background-color: #D8D8D8;
 }
 
 .container-fluid {
     height: auto;
 }
+/* testing */
