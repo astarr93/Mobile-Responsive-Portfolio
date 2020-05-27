@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A. Starr | About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/common.css">
+  <link rel="stylesheet" type="text/css" href="assets/index.css">
 </head>
-<main>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Andrew Starr</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
-    
-</main>
+
+<body>
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <!-- Hamburger Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Hamburger Button Contents -->
+      <div class="collapse navbar-collapse">
+        <!-- Navigation Links -->
+        <ul class="navbar-nav mt-2">
+          <li class="nav-item mr-auto active">
+            <a class="nav-link" id="home" href="index.html">home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-auto">
+            <a class="nav-link" id="portfolio" href="portfolio.html">portfolio</a>
+          </li>
+          <li class="nav-item mr-auto">
+            <a class="nav-link" id="social" href="social.html">social</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Navigation Bar Branding -->
+      <h1 class="navbar-brand mt-2">Andrew Starr</h1>
+    </nav>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 device-width">
+        <img class="hero-img" src="assets/images/hero-img.jpg" alt="Relaxed Puppy">
+      </div>
+      <div class="col-lg-8 mr-auto ml-auto h-100 mt-2">
+        <h2 class="pb-2 mt-4 mb-2 border-bottom">
+          About Me:
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mr-auto ml-auto h-100 m2-2">
+        <img class="profile-pic" src="assets/images/profile-pic.jpg"><p>Originally from Washington D.C., I've found travelled across the country learning new passions, skills, and trades before temporarily settling down in Raleigh, NC. An aspiring software developer, I spend what little free time I have working on coding projects and reading whitepapers on UI Design, hoping to be a part of the next big push in modern design and ingenuity. <br> I like talking walks through the many trails of Raleigh with my dog, Shiloh (pictured above). She's my go-to coding companion!</p>
+      </div>
+    </div>
+    <footer>
+      <nav class="navbar fixed-bottom mt-2">
+        <small>Copyright &copy; 2020 Andrew Starr</small>
+    </footer>
+</body>
+
 </html>

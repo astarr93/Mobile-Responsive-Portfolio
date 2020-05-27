@@ -1,0 +1,78 @@
+/* Navigation Bar Classes | Shared/Specific for Header & Footer */
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+}
+
+.navbar small {
+    color: #141414;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+/* Navigation Bar Classes | Link Stylings */
+
+.navbar li {
+    font-family: 'Oxygen', sans-serif;
+    font-size: relative;
+    letter-spacing: 3px;
+}
+
+.navbar li:hover {
+    transform: skew(4deg,4deg);
+    background-position: left bottom;
+}
+
+#home {
+    background: linear-gradient(to right, #FF5e5B 50%, #f8f9fa 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+#home:hover {
+    transform: skew(4deg,4deg);
+    background-position: left bottom;
+}
+
+#portfolio {
+    background: linear-gradient(to right, #FFED66 50%, #f8f9fa 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+#portfolio:hover {
+    transform: skew(4deg,4deg);
+    background-position: left bottom;  
+}
+
+#social {
+    background: linear-gradient(to right, #00CECB 50%, #f8f9fa 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+#social:hover {
+    transform: skew(3deg,3deg);
+    background-position: left bottom;  
+}
+
+.body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.row {
+    height: 100%;
+    background-color: #D8D8D8;
+}
+
+.container-fluid {
+    height: auto;
+}

@@ -1,4 +1,24 @@
-nav {
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-lg-12{
+    padding: 0;
+}
+
+.profile-pic {
     float: left;
-    width: 100%;
+    max-width: 250px;
+    max-height: auto;
+    margin-right: 15px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-decoration: underline;
 }
