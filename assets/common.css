@@ -24,7 +24,7 @@
 }
 
 .navbar li:hover {
-    transform: skew(4deg,4deg);
+    transform: skew(4deg, 4deg);
     background-position: left bottom;
 }
 
@@ -36,7 +36,7 @@
 }
 
 #home:hover {
-    transform: skew(4deg,4deg);
+    transform: skew(4deg, 4deg);
     background-position: left bottom;
 }
 
@@ -48,8 +48,8 @@
 }
 
 #portfolio:hover {
-    transform: skew(4deg,4deg);
-    background-position: left bottom;  
+    transform: skew(4deg, 4deg);
+    background-position: left bottom;
 }
 
 #social {
@@ -60,8 +60,20 @@
 }
 
 #social:hover {
-    transform: skew(3deg,3deg);
-    background-position: left bottom;  
+    transform: skew(3deg, 3deg);
+    background-position: left bottom;
+}
+
+#resume {
+    background: linear-gradient(to right, #8A4F7D 50%, #f8f9fa 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+#resume:hover {
+    transform: skew(3deg, 3deg);
+    background-position: left bottom;
 }
 
 .body {
@@ -75,4 +87,3 @@ body {
 .container-fluid {
     height: auto;
 }
-/* testing */

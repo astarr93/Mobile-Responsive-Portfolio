@@ -12,4 +12,14 @@
 body {
     background-color: #d8d8d8;
 }
-/* testing */
+
+.card {
+    background: linear-gradient(to right, black 50%, #f8f9fa 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.card {
+    background-position: left bottom;
+}
